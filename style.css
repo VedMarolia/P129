@@ -1,0 +1,50 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.heading{
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+}
+
+.note{
+    color: black;
+    font-size: 15px;
+}
+
+.div_speed_image , .div_volume_image{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed , #volume{
+    margin: 15px;
+    font-size: 20px;
+}
+
+.div_speed{
+    float: left;
+}
+
+.div_volume{
+    float: right;
+}
+
+#play , #pause{
+    width: 125px;
+}
+
+canvas{
+    border: 3px solid white;
+    border-radius: 10px;
+    animation-name: example;
+    animation-duration: 4;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    to{box-shadow: 3px 3px 10px yellow;}
+    from{box-shadow: 3px 3px 10px aquamarine;}
+}
